@@ -1,10 +1,11 @@
 # Cute String
 **Unfinished** project that still can be used for creating animated clantags for **Counter-Strike** hacks (or something else you can think of).
 
-## Contains 3 basic animations:
+## Contains 4 basic animations:
 - *NORMAL*;
 - *REVERSE*;
 - *BACKWARDS*.
+- *REVERSE BACKWARDS*.
 
 ## Supported Operating Systems
 
