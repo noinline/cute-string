@@ -10,6 +10,7 @@ class CuteString
     NORMAL = 0,
     REVERSE = 1,
     BACKWARDS = 2,
+    REVERSE_BACKWARDS = 3,
   } mode;
 
 public:
@@ -40,6 +41,14 @@ public:
     case AnimMode_t::BACKWARDS: {
       for (int i = 0; i < this->stringLength(input) * sizeof(input); ++i) {
         std::printf("%s\n", input.c_str());
+        input.erase(0, 1);
+      }
+      break;
+    }
+    case AnimMode_t::REVERSE_BACKWARDS: {
+      for (int i = 0; i < this->stringLength(input) * sizeof(input); ++i) {
+        std::printf("%s\n", input.c_str());
+        std::reverse(input.begin(), input.end());
         input.erase(0, 1);
       }
       break;
