@@ -4,7 +4,7 @@
 ## Contains 4 basic animations:
 - *NORMAL*;
 - *REVERSE*;
-- *BACKWARDS*.
+- *BACKWARDS*;
 - *REVERSE BACKWARDS*.
 
 ## Supported Operating Systems
